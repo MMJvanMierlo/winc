@@ -9,14 +9,6 @@ body {
     margin: auto;
 }
 
-
-.black-border {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px
-
-
-}
-
 .black-border2 {
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 0px;
@@ -27,11 +19,7 @@ body {
 .arialfont {
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.full-background {
-    background-image: url(https://thematrixjesusparallels.weebly.com/uploads/4/4/1/5/44153537/189289836.png);
-    background-size: auto 1080px
-}
+    
 
 .full-background2 {
     background-image: url(http://www.timothyjwelsh.com/wp-content/uploads/2013/02/matrix-neowork-timothyjwelsh.png);
@@ -44,36 +32,20 @@ body {
 
 }
 
-span { color: red;}
-
 main {
     border-style: solid;
     border-color: white;
     border-width: 2px;
 }
 
-
-header {
+section {
     border-style: solid;
-    border-color: ;
+    border-color: white;
     border-width: 2px;
-    margin-bottom: 40px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 2%;
-    padding: 0;
-    overflow: hidden;
-    background-color: none;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color:white;
-    text-align: center;
-    padding: 13px
+nav {
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
