@@ -1,0 +1,72 @@
+
+body { 
+    color: white
+}
+
+body {
+    width: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+.black-border2 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 0px;
+    font-size: 70px;
+
+}
+
+.arialfont {
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+/*dont know how to make the background responsive in media querie so blocked it for now*/
+.full-backgrond2 {
+    background-image: url(http://www.timothyjwelsh.com/wp-content/uploads/2013/02/matrix-neowork-timothyjwelsh.png);
+    background-size: auto 840px
+
+
+}
+.alignleft {
+    text-align: left;
+
+}
+
+main {
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+section {
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+nav {
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      
+    }
+  }
+@media only screen and (min-width: 600px) {
+    body {
+      background-color: yellow;
+      color:purple;
+      line-height: 1.6;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    p {
+        font-size: 10px
+    }
+}
+
