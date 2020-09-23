@@ -8,25 +8,44 @@
 
 <body></body>
 
-<header>Form</header>
-<br>
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Name: <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Tel: <input type="tel" name="tel" /></label>
+  </p>
+  <p>
+    <label>Age: <input type="date" name="date" /></label>
+  </p>
+  <p>
+    <label>Male: <input type="radio" name="Male" /></label>
+    <label>Female: <input type="radio" name="Female" /></label>
+  </p>
+  <p>Favourite Cuisine</p>
+  <label>French: <input type="checkbox" name="French" /></label>
+  <label>Italian: <input type="checkbox" name="Italian" /></label>
+  <label>Spanish: <input type="checkbox" name="Spanish" /></label>
+  <label>Arabic: <input type="checkbox" name="Arabic" /></label>
+  <p>
+  </p>
+  <label>Biografie: <textarea name="Biografie"></textarea></label>
+  <p>
+  </p>
+  <label>Upload last recipe: <input type="file" name="file" /></label>
+  <p>
+  </p>
+  <label>Reset all above: <input type="reset" name="reset" /></label>
+  <p>
+  </p>
+  <p>
 
 
-<form data-netlify="true">
-
-  <input type="text" value="Name">
-  <input type="email" value="Email">
-  <input type="password" value="password">
-
-  <br>
-  <br>
-
-  <textarea rows="10" cols="18">Write something here</textarea>
-
-  <br>
-  <br>
-  <input type="submit">
-
+    <button type="submit">Submit</button>
+  </p>
 </form>
 
 <br>
