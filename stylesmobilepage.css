@@ -1,0 +1,134 @@
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr 1fr 50px;
+    grid-gap: 3px
+}
+ 
+.header {
+    background-color: lightblue;
+    color: white;
+}
+
+.main-area {
+    background-color: lightgreen;
+    color: white;
+}
+
+.widget-area{
+    background-color: purple;
+    color: white;
+}
+
+.footer {
+    background-color: darkblue;
+    color: white;
+}
+
+@media only screen and (min-width: 600px){ 
+    .header {
+        background-color: darkblue;
+    }
+    .main-area{
+        background-color: purple;
+    }
+    .widget-area{
+        background-color: lightgreen;
+    }
+    .footer {
+        background-color:lightblue
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .container {
+        height: 100%;
+        display: grid;
+        grid-gap: 3px;
+        grid-template-columns: 100px auto 50px;
+        grid-template-rows: 50px auto 50px;
+        grid-template-areas:
+        "h h h h h h h h h h h h"
+        "m m m w w w w w w w w w"
+        "f f f f f f f f f f f f"
+    }
+
+    .header {
+        grid-area: h;
+    }
+    .main-area{
+        grid-area: m;
+    }
+    .widget-area{
+        grid-area: w;
+    }
+    .footer {
+        grid-area: f;
+    }
+}
+
+@media only screen and (min-width: 1050px){
+    .header {
+        background-color: yellow;
+    }
+    .main-area{
+        background-color: lightblue;
+    }
+    .widget-area{
+        background-color: darkgoldenrod;
+    }
+    .footer {
+        background-color:darkolivegreen
+    }
+
+    .container {
+        height: 100%;
+        display: grid;
+        grid-gap: 3px;
+        grid-template-columns: 100px auto 50px;
+        grid-template-rows: 50px auto 50px;
+        grid-template-areas:
+        "m h h h h h h h h h h h"
+        "m w w w w w w w w w w w"
+        "m f f f f f f f f f f f"
+    }
+
+    .header {
+        grid-area: h;
+        text-align: center;
+        font-size: 40px;
+        font-family: cursive;
+        color: black
+
+    
+    }
+    .main-area{
+        grid-area: m;
+        text-align: center;
+        font-size: 40px;
+        font-family: cursive;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    .widget-area{
+        grid-area: w;
+        text-align: center;
+        font-size: 40px;
+        font-family: cursive;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    .footer {
+        grid-area: f;
+        text-align: center;
+        font-size: 40px;
+        font-family: cursive;
+        color: white
+    }
+}
